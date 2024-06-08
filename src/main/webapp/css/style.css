@@ -1,0 +1,313 @@
+@charset "UTF-8";
+body{
+	padding: 0px;
+	margin: 0px;
+    color: #0097a4;
+}
+
+.header{
+    text-align: center;
+    background-color: #0097a4;
+}
+
+img{
+	
+	width:auto;
+	height:80px;
+}
+
+.logo1{
+	float:left;
+}
+
+.logo2{
+    float: right;
+}
+
+
+.title{
+    clear: both;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 35px;
+
+	
+}
+
+.navbar {
+    clear:both;
+    background-color: #0097a4;
+    overflow: hidden;
+    margin: 0px;
+    font-size: 20px;
+    border-top:2px solid white;
+    
+}
+
+.navbar-nav {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    text-transform: uppercase
+}
+
+.nav-item {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+.nav-link {
+    display: block;
+    color: #fff; 
+    padding: 14px 16px; 
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
+
+.nav-link:hover {
+    background-color: #007882; 
+    
+}
+
+
+
+/*FORMULAIRE AJOUTER UN UTILISATEUR */
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold; 
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+input[type="submit"] {
+    width: 100%; 
+    background-color: #0097a4; 
+    color: white; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover {
+    background-color: #007882; 
+}
+
+
+/*Formulaire Affichage Utilisateur*/
+
+
+h1 {
+    text-align: center; 
+    color: white; 
+    margin-bottom: 20px; 
+}
+
+.user-table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+.user-table th,
+.user-table td {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+}
+
+.user-table th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+}
+
+.user-table td {
+    text-align: center; 
+}
+
+/* /*FORMULAIRE MODIFICATION*/
+.container {
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+ */
+h1 {
+	font-size:20px;
+    text-align: center; 
+    color: #333; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+
+h2 {
+	font-size:15px;
+    text-align: center; 
+    color: #0097a4; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+}
+
+form {
+    text-align: none; 
+}
+
+label {
+	text-align:left;
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+input[type="submit"] {
+	text-align:center;
+	margin:auto;
+    width: 30%; 
+    background-color: #0097a4; 
+    color: white; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover {
+    background-color:#007882; 
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+    background-color: #0097a4;
+    color:white;
+}
+
+.submit{
+	text-align: center;
+}
+
+.invalide{
+	color: red;
+}
+
+.formItem{
+	text-align: center;
+}
+
+form{
+    float: left;
+    width: 60%;
+}
+.image{
+    float: right;
+    height: auto;
+    width: 40%;
+}
+.image2{
+    width:100%;
+	height:auto;
+}
+
+.container{
+    margin: auto;
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width:50%;
+    height: 340px;
+}
+
+.container2{
+    margin: auto;
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width:50%;
+    height: 600px;
+
+}
+
+.container3{
+    margin: auto;
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width:50%;
+    height: 500px;
+
+}
+
+.modifier{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    display: block;
+    color: #fff; 
+    padding: 10px 12px; 
+    text-decoration: none;
+    transition: background-color 0.3s;
+    background-color: #0097a4
+}
+
+.modifier:hover{
+    background-color: #007882;
+}
+
+.supprimer{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    display: block;
+    color: #fff; 
+    padding: 10px 12px; 
+    text-decoration: none;
+    transition: background-color 0.3s;
+    background-color: #a41900
+}
+
+.supprimer:hover{
+    background-color: #a41900be
+}
+
+.form2{
+    width: 100%;
+    margin:auto;
+}
